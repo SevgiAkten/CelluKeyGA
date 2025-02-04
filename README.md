@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Development-orange?style=flat-square)
+
+
 # CelluKeyGA
 
 🚀 **CelluKeyGA** is a Python library that integrates **Cellular Genetic Algorithm (Cellular GA)** with **Biased Random-Key Genetic Algorithm (BRKGA)** to enhance optimization capabilities. This project aims to provide a flexible and efficient evolutionary computing framework for solving complex optimization problems.
