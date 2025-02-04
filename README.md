@@ -1,6 +1,9 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Development-orange?style=flat-square)
+[![Doc](https://img.shields.io/badge/docs-dev-blue.svg)](https://sevgiakten.github.io/CelluKeyGA/)
+[![License](https://img.shields.io/github/license/SevgiAkten/pycellga)](https://github.com/SevgiAkten/CelluKeyGA/blob/main/LICENSE)
+![Repo Size](https://img.shields.io/github/repo-size/SevgiAkten/CelluKeyGA)
+![GitHub Contributors](https://img.shields.io/github/contributors/SevgiAkten/CelluKeyGA)
 
 
 # CelluKeyGA
