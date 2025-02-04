@@ -1,2 +1,42 @@
 # CelluKeyGA
-CelluKeyGA is a Python library that integrates Cellular Genetic Algorithm (Cellular GA) with Biased Random-Key Genetic Algorithm (BRKGA) to enhance optimization capabilities.
+
+🚀 **CelluKeyGA** is a Python library that integrates **Cellular Genetic Algorithm (Cellular GA)** with **Biased Random-Key Genetic Algorithm (BRKGA)** to enhance optimization capabilities. This project aims to provide a flexible and efficient evolutionary computing framework for solving complex optimization problems.
+
+## 🔹 Features
+- Combines **Cellular GA** and **BRKGA** for improved solution diversity and performance.
+- Designed for solving **combinatorial and continuous optimization** problems.
+- **Modular and extensible** structure for easy customization.
+- Compatible with existing optimization libraries like **pymoo**.
+
+## 🛠️ Applications
+CelluKeyGA can be applied in various domains, including:
+- ✅ Scheduling and routing problems.
+- ✅ Machine learning hyperparameter optimization.
+- ✅ Engineering design optimization.
+- ✅ Any problem requiring robust metaheuristic search strategies.
+
+## 📦 Installation
+```bash
+pip install cellukeyga  # Placeholder for the actual package name
+```
+
+## 🚀 Getting Started
+```python
+from cellukeyga import CelluKeyGA
+
+# Example usage
+ckga = CelluKeyGA()
+ckga.run()
+```
+
+## 📂 Roadmap
+- [ ] Implement core algorithm.
+- [ ] Add benchmark test problems.
+- [ ] Provide detailed documentation.
+- [ ] Integrate with pymoo.
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues and pull requests.
+
+## 📜 License
+MIT License (or any other license you prefer).
