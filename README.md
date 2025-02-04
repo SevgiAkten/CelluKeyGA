@@ -7,7 +7,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/CelluKeyGA.svg)](https://pypi.org/project/CelluKeyGA/)
 
 
-Note: This section is under development..
+Note: This section is under development...
 
 
 # CelluKeyGA
