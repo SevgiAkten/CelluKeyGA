@@ -1,0 +1,44 @@
+name: Fully Automated PyPI Release and GitHub Releases Management
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' 
+
+jobs:
+  build_and_publish:
+    runs-on: ubuntu-latest
+
+    steps:  
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install build twine
+      
+      - name: Build package
+        run: python -m build
+      
+      - name: Publish to PyPI
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          python -m twine upload dist/*
+      
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body: |
+            ## Changes in ${{ github.ref_name }}
+            - Package successfully published to PyPI.
+            - Visit [PyPI](https://pypi.org/project/CelluKeyGA/) for more details.
+            - Release generated automatically using CI/CD.
