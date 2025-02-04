@@ -6,7 +6,6 @@
 - Combines **Cellular GA** and **BRKGA** for improved solution diversity and performance.
 - Designed for solving **combinatorial and continuous optimization** problems.
 - **Modular and extensible** structure for easy customization.
-- Compatible with existing optimization libraries like **pymoo**.
 
 ## 🛠️ Applications
 CelluKeyGA can be applied in various domains, including:
