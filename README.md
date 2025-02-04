@@ -16,7 +16,7 @@ CelluKeyGA can be applied in various domains, including:
 
 ## 📦 Installation
 ```bash
-pip install cellukeyga  # Placeholder for the actual package name
+pip install cellukeyga 
 ```
 
 ## 🚀 Getting Started
