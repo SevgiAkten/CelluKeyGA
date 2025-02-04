@@ -2,6 +2,9 @@
 [![License](https://img.shields.io/github/license/SevgiAkten/pycellga)](https://github.com/SevgiAkten/CelluKeyGA/blob/main/LICENSE)
 [![Doc](https://img.shields.io/badge/docs-dev-blue.svg)](https://sevgiakten.github.io/CelluKeyGA/)
 ![Status](https://img.shields.io/badge/Status-Development-orange?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/SevgiAkten/pycellga)
+![GitHub Contributors](https://img.shields.io/github/contributors/SevgiAkten/CelluKeyGA)
+[![PyPI version](https://img.shields.io/pypi/v/CelluKeyGA.svg)](https://pypi.org/project/CelluKeyGA/)
 
 
 # CelluKeyGA
